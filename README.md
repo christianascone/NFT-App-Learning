@@ -13,6 +13,7 @@
 
 ## **:package: Main tools used**
 
+- [x] NVM
 - [x] Solidity
 - [x] Alchemy
 - [x] MetaMask
