@@ -25,3 +25,7 @@
 - [OpenZeppelin](https://docs.openzeppelin.com/contracts/3.x/erc721) implementation of ERC-721
 - npm install --save @openzeppelin/contracts
 - MyNFT.sol in `contracts` folder
+
+# Configuration
+- npm install dotenv --save
+- New .env file
