@@ -1,0 +1,25 @@
+{
+  "name": "nft-app-learning",
+  "version": "1.0.0",
+  "description": "Simple project for NFT learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianascone/NFT-App-Learning.git"
+  },
+  "keywords": [
+    "NFT",
+    "Polygon",
+    "Blockchain",
+    "Npm"
+  ],
+  "author": "Christian Ascone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christianascone/NFT-App-Learning/issues"
+  },
+  "homepage": "https://github.com/christianascone/NFT-App-Learning#readme"
+}
