@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/christianascone/NFT-App-Learning/issues"
   },
-  "homepage": "https://github.com/christianascone/NFT-App-Learning#readme"
+  "homepage": "https://github.com/christianascone/NFT-App-Learning#readme",
+  "devDependencies": {
+    "hardhat": "^2.10.2"
+  }
 }
