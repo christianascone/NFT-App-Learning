@@ -20,3 +20,8 @@
     - where we’ll keep our NFT smart contract code
 - mkdir scripts
     - where we’ll keep scripts to deploy and interact with our smart contract
+
+# Contract
+- [OpenZeppelin](https://docs.openzeppelin.com/contracts/3.x/erc721) implementation of ERC-721
+- npm install --save @openzeppelin/contracts
+- MyNFT.sol in `contracts` folder
