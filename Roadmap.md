@@ -29,3 +29,6 @@
 # Configuration
 - npm install dotenv --save
 - New .env file
+- Install Ether.js
+    - Ethers.js is a library that makes it easier to interact and make requests to Ethereum by wrapping standard JSON-RPC methods with more user friendly methods.
+- npm install --save-dev @nomiclabs/hardhat-ethers ethers@^5.0.0

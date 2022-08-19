@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/christianascone/NFT-App-Learning#readme",
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "ethers": "^5.7.0",
     "hardhat": "^2.10.2"
   },
   "dependencies": {
