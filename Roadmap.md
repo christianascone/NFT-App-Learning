@@ -1,4 +1,5 @@
-# Setup
+# NFT creation and deploy
+## Setup
 
 - Alchemy account
 - ~~Ropsten test network~~ Deprecated
@@ -11,7 +12,7 @@
     - eth_getBalance
 - https://eth-converter.com
 
-# Initialize project
+## Initialize project
 - npm init
 - npm install --save-dev hardhat
 - npx hardhat
@@ -21,12 +22,12 @@
 - mkdir scripts
     - where we’ll keep scripts to deploy and interact with our smart contract
 
-# Contract
+## Contract
 - [OpenZeppelin](https://docs.openzeppelin.com/contracts/3.x/erc721) implementation of ERC-721
 - npm install --save @openzeppelin/contracts
 - MyNFT.sol in `contracts` folder
 
-# Configuration
+## Configuration
 - npm install dotenv --save
 - New .env file
 - Install Ether.js
@@ -36,5 +37,7 @@
 - npx hardhat compile
     - Compile contract
 
-# Deploy
+## Deploy
 - deploy.js in `scripts` folder
+- npx hardhat --network mumbai run scripts/deploy.js
+    - Contract deployed to address: 0x4FA8AE139dBd70B5BA8201328Cb123DD49DC784f
