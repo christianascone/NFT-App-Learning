@@ -47,7 +47,7 @@ def bump_version(filename, placeholder, end_offset, open_branch):
         print("New Version: {}".format(new_version))
         if open_branch:
           print("Open release")
-          #subprocess.run(["git-flow", "release", "start", new_version])
+          subprocess.run(["git-flow", "release", "start", new_version])
         content = content + line.replace(ver, new_version)
       else:
         content = content + line
@@ -56,14 +56,13 @@ def bump_version(filename, placeholder, end_offset, open_branch):
   return new_version
 
 def add_staging(filename):
-  #subprocess.run(["git", "add", filename])
-  print('echo')
+  subprocess.run(["git", "add", filename])
 
 def open_close_release(new_version):
   custom_env = os.environ.copy()
   custom_env["GIT_MERGE_AUTOEDIT"] = "no"
-  #subprocess.run(["git", "commit", "-m", "Bump version"])
-  #subprocess.run(["git-flow", "release", "finish", "-m", new_version, new_version], env=custom_env)
+  subprocess.run(["git", "commit", "-m", "Bump version"])
+  subprocess.run(["git-flow", "release", "finish", "-m", new_version, new_version], env=custom_env)
 
 
 filename = 'package.json'
