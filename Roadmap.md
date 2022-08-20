@@ -41,3 +41,10 @@
 - deploy.js in `scripts` folder
 - npx hardhat --network mumbai run scripts/deploy.js
     - Contract deployed to address: 0x4FA8AE139dBd70B5BA8201328Cb123DD49DC784f
+
+# NFT minting
+“Minting an NFT” is the act of publishing a unique instance of your ERC-721 token on the blockchain.
+
+- npm install --save @alch/alchemy-web3
+    - Install web3, a library used to make creating requests to the Ethereum blockchain easier (like ether.js)
+- mint-nft.js in `scripts` directory
