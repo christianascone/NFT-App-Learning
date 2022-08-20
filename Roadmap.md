@@ -48,3 +48,6 @@
 - npm install --save @alch/alchemy-web3
     - Install web3, a library used to make creating requests to the Ethereum blockchain easier (like ether.js)
 - mint-nft.js in `scripts` directory
+- Get compiled contract ABI (Application Binary Interface) from `artifacts/contracts/MyNFT.sol/MyNFT.json` using web3
+- node scripts/mint-nft.js
+    - Just for printing abi
