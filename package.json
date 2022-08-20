@@ -1,6 +1,6 @@
 {
   "name": "nft-app-learning",
-  "version": "1.0.0",
+  "version": "0.00.01",
   "description": "Simple project for NFT learning",
   "main": "index.js",
   "scripts": {
