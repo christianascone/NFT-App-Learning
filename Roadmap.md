@@ -35,3 +35,6 @@
 - Update hardhat.config.js with network configuration
 - npx hardhat compile
     - Compile contract
+
+# Deploy
+- deploy.js in `scripts` folder
