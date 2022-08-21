@@ -51,3 +51,8 @@
 - Get compiled contract ABI (Application Binary Interface) from `artifacts/contracts/MyNFT.sol/MyNFT.json` using web3
 - node scripts/mint-nft.js
     - Just for printing abi
+- Need to configure metadata using IPFS in order to ensure the NFT is decentralized
+    - Interplanetary File System (IPFS) is a decentralized protocol and peer-to-peer network for storing and sharing data in a distributed file system.
+- Use Pinata
+- Upload an image to Pinata (will be the image for NFT)
+- Create metadata json file nft-metadata.json

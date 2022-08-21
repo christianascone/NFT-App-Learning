@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Universe",
+      "value": "Star Wars"
+    },
+    {
+      "trait_type": "Quality",
+      "value": "Superb"
+    }
+  ],
+  "description": "My sketch of Yoda.",
+  "image": "ipfs://QmRSmNLD1M8NTp2FwkLifyYqxYfmHe9TpMh4VsAcfb33vt",
+  "name": "Yoda Avatar"
+}
