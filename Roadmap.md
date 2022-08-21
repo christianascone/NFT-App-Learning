@@ -41,6 +41,7 @@
 - deploy.js in `scripts` folder
 - npx hardhat --network mumbai run scripts/deploy.js
     - Contract deployed to address: 0x4FA8AE139dBd70B5BA8201328Cb123DD49DC784f
+    - This must be saved for later
 
 # NFT minting
 “Minting an NFT” is the act of publishing a unique instance of your ERC-721 token on the blockchain.
@@ -56,3 +57,5 @@
 - Use Pinata
 - Upload an image to Pinata (will be the image for NFT)
 - Create metadata json file nft-metadata.json
+- Create an instance of contract using the previously saved address and ABI
+    - 0x4FA8AE139dBd70B5BA8201328Cb123DD49DC784f
