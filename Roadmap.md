@@ -59,3 +59,8 @@
 - Create metadata json file nft-metadata.json
 - Create an instance of contract using the previously saved address and ABI
     - 0x4FA8AE139dBd70B5BA8201328Cb123DD49DC784f
+- Add Public key to .env to get account nonce
+    - The nonce specification is used to keep track of the number of transactions sent from your address — which we need for security purposes and to prevent replay attacks. To get the number of transactions sent from your address, we use getTransactionCount.
+- Create transaction updating mint-nft.js
+    - Need to estimate gas (https://www.0xdev.co/how-to-compute-the-gas-fee-for-a-transaction-web3/)
+    - Transaction must be signed with private key using web3.eth.sendSignedTransaction
