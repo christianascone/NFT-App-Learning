@@ -22,7 +22,8 @@ async function mintNFT(tokenURI) {
         'gas': 500000, // Estimated gas (https://www.0xdev.co/how-to-compute-the-gas-fee-for-a-transaction-web3/)
         'data': nftContract.methods.mintNFT(PUBLIC_KEY, tokenURI).encodeABI()
     }
-    
+
+    // Sign transaction using the "tx" object
     const signPromise = web3.eth.accounts.signTransaction(tx, PRIVATE_KEY)
     signPromise
         .then((signedTx) => {
@@ -49,3 +50,4 @@ async function mintNFT(tokenURI) {
         })
 }
 
+mintNFT("ipfs://"+process.env.IPFS_METADATA_CID)

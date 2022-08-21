@@ -64,3 +64,9 @@
 - Create transaction updating mint-nft.js
     - Need to estimate gas (https://www.0xdev.co/how-to-compute-the-gas-fee-for-a-transaction-web3/)
     - Transaction must be signed with private key using web3.eth.sendSignedTransaction
+- Get the metadata CID from Pinata and pass to mintNFT function
+    - https://gateway.pinata.cloud/ipfs/<CID>
+    - Set in .env
+- node scripts/mint-nft.js
+    - The hash of your transaction is:  0xf5ef32270ab8abeb23b5b30785675e3d6559792d8ef98a1cfdb8504dc7c54c92 
+    - Check Alchemy's Mempool to view the status of your transaction!
